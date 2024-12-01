@@ -1,0 +1,35 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+
+# Jupyter Notebook
+.ipynb
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
