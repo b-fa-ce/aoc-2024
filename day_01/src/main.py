@@ -1,4 +1,4 @@
-from src.utils import read_file, get_total_distance, get_similiarity_score
+from utils import read_file, get_total_distance, get_similiarity_score
 
 if __name__ == "__main__":
     data_1, data_2 = read_file("data.csv")

@@ -1,5 +1,5 @@
 from collections import Counter
-from src.custom_types import datalist, UnequalLengthError
+from custom_types import datalist, UnequalLengthError
 
 def read_file(path: str) -> tuple[datalist, datalist]:
     data_list_1 = []
