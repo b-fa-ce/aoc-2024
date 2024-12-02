@@ -27,7 +27,7 @@ coverage.xml
 
 
 # Jupyter Notebook
-.ipynb
+*.ipynb
 .ipynb_checkpoints
 
 # Environments
