@@ -1,7 +1,7 @@
-from utils import read_file, get_total_distance, get_similiarity_score
+from day_01.src.utils import read_file, get_total_distance, get_similiarity_score
 
 if __name__ == "__main__":
-    data_1, data_2 = read_file("data.csv")
+    data_1, data_2 = read_file("day_01/data.csv")
 
     distance = get_total_distance(data_1, data_2)
     similarity_score = get_similiarity_score(data_1, data_2)
