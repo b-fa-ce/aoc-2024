@@ -3,10 +3,12 @@
 Explorations of [AoC 2024](https://adventofcode.com/2024) in Python.
 
 ## Run
-To run go to specific day and look for instructions. Usually via
+Run via
 ```
-poetry run python src/main.py
+poetry run python day_xy/src/main.py
 ```
+with `xy` the specific day.
+
 ### Progress
 
 
@@ -14,4 +16,5 @@ poetry run python src/main.py
 |:---:|:--------------------------------------------------------------------------|:-----:|
 | 01  | [Historian Hysteria](https://adventofcode.com/2024/day/1)                 |  ✅  |
 | 02  | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)                  |  ✅  |
-| 03  |     |    |
+| 03  | [Mull It Over](https://adventofcode.com/2024/day/3)                       |  ✅  |
+| 04  |             |  |
