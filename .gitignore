@@ -33,3 +33,6 @@ coverage.xml
 # Environments
 .env
 .venv
+
+# data
+*.data.csv
