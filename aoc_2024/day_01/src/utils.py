@@ -1,13 +1,14 @@
 from collections import Counter
-from custom_types import datalist, UnequalLengthError
+from aoc_2024.day_01.src.custom_types import datalist, UnequalLengthError
+
 
 def read_file(path: str) -> tuple[datalist, datalist]:
     data_list_1 = []
     data_list_2 = []
 
-    with open(path, 'r', encoding='utf8') as f:
+    with open(path, "r", encoding="utf8") as f:
         for line in f.readlines():
-            line_1, line_2 = line.strip('\n').split('   ')
+            line_1, line_2 = line.strip("\n").split("   ")
             data_list_1.append(line_1)
             data_list_2.append(line_2)
 
@@ -27,6 +28,7 @@ def get_total_distance(data_1: datalist, data_2: datalist) -> int:
     distances = [abs(int(d_1[i]) - int(d_2[i])) for i in range(len(d_1))]
 
     return sum(distances)
+
 
 def get_similiarity_score(data_1: datalist, data_2: datalist) -> int:
     """

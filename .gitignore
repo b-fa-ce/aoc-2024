@@ -35,4 +35,4 @@ coverage.xml
 .venv
 
 # data
-*.data.csv
+*.csv
