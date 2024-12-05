@@ -69,7 +69,7 @@ def count_X_MAS(board: list[list[str]]) -> int:
     return count
 
 
-directions = [(1, 1), (1, -1)]
+DIRECTIONS_2: list[direction_type] = [(1, 1), (1, -1)]
 
 
 def is_X_MAS(
@@ -86,7 +86,7 @@ def is_X_MAS(
     if board[i][j] != "A":
         return 0
 
-    for dx, dy in directions:
+    for dx, dy in DIRECTIONS_2:
         if not (
             (board[i + dx][j + dy] == "M" and board[i - dx][j - dy] == "S")
             or (board[i + dx][j + dy] == "S" and board[i - dx][j - dy] == "M")
