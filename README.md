@@ -20,4 +20,5 @@ with `xy` the specific day.
 | 04  | [Ceres Search](https://adventofcode.com/2024/day/4)                       |  ✅  |
 | 05  | [Print Queue](https://adventofcode.com/2024/day/5)                        |  ✅  |
 | 06  | [Guard Gallivant](https://adventofcode.com/2024/day/6)                    |  ✅  |
-| 07  |                |    |
+| 07  | [Bridge Repair](https://adventofcode.com/2024/day/7)                      |  ✅  |
+| 08  | [Resonant Collinearity](https://adventofcode.com/2024/day/8)              |  |
